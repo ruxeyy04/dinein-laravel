@@ -1,0 +1,267 @@
+body {
+	margin: 0;
+}
+#navb {
+	width: 100%;
+	position: fixed;
+	background-color: #231a3e;
+	z-index: 100;
+}
+#navb a {
+	color: white;
+}
+#navb li {
+	list-style: none;
+}
+.content {
+	color: white;
+	text-align: center;
+	display: inline;
+}
+#bt {
+	color: white;
+	background-color: #231a3e;
+	transition: 500ms;
+	border: 1px solid white;
+}
+#bt:hover {
+	transform: scale(1.2);
+	transition: 500ms;
+	color: #231a3e;
+	background-color: white;
+	border: 1px solid #231a3e;
+}
+.chero {
+	padding-top: 170px;
+}
+.chero button {
+	margin-top: 10px;
+}
+.chero h1,
+h5 {
+	font-weight: 600;
+}
+.content img {
+	position: absolute;
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+	z-index: -100;
+	filter: brightness(50%);
+	transition: 500ms;
+}
+.currentmenu {
+	width: 100%;
+	margin-top: 300px;
+	background-color: white;
+	padding: 50px;
+}
+.currentmenu h4 {
+	text-align: center;
+}
+.currentmenu img {
+	height: 150px;
+	width: 150px;
+	transition: 1000ms;
+}
+.currentmenu img:hover {
+	transform: scale(1.2);
+	transition: 1000ms;
+}
+.currentmenu h5 {
+	color: rgb(220, 61, 61);
+}
+#menu {
+	margin: 10px;
+	cursor: pointer;
+	padding: 20px;
+	border: 1px solid black;
+	border-radius: 20px;
+	transition: 300ms;
+	box-shadow: 4px 7px #888888;
+	background-color: white;
+}
+#menu:hover {
+	transform: scale(1.1);
+	z-index: 100;
+	transition: 300ms;
+}
+.currentmenu p {
+	margin-top: 10px;
+	text-align: right;
+	cursor: pointer;
+}
+.rform {
+	padding: 30px;
+	margin: 40px auto;
+	border: 1px solid black;
+	border-radius: 20px;
+	transition: 300ms;
+	box-shadow: 4px 7px #888888;
+	background-color: white;
+}
+footer {
+	padding: 20px;
+	height: 90px;
+	background-color: #231a3e;
+}
+footer h6 {
+	color: white;
+	text-align: center;
+}
+footer i {
+	margin: 10px;
+}
+.modal.fade .modal-dialog {
+	-webkit-transform: translate(0, 0);
+	transform: translate(0, 0);
+}
+#login {
+	transform: translateX(100%) !important;
+	opacity: 0;
+	transition: all 1s;
+	display: block !important;
+	transition: 500ms;
+}
+#login.show {
+	overflow: hidden;
+	opacity: 1;
+	filter: blur(0px);
+	transform: translateX(0) !important;
+	transform: none;
+	transition: 500ms;
+}
+#login span {
+	color: rgb(54, 54, 176);
+	cursor: pointer;
+}
+#register {
+	transform: translateX(-100%) !important;
+	opacity: 0;
+	transition: 500ms;
+	display: block !important;
+}
+#register.show {
+	overflow: hidden;
+	transition: 500ms;
+	opacity: 1;
+	filter: blur(0px);
+	transform: translateX(0) !important;
+	transform: none;
+}
+#mheader {
+	background-color: #231a3e;
+	color: white;
+}
+#mheader span {
+	color: rgb(255, 0, 0);
+}
+.container h4 {
+	text-align: center;
+}
+#prodcontent {
+	padding: 30px;
+}
+#prodbox {
+	border: 1px solid black;
+	border-radius: 20px;
+	transition: 300ms;
+	box-shadow: 4px 7px #888888;
+	background-color: white;
+	padding: 10px;
+	margin: 5px;
+}
+#prodbox:hover {
+	background-color: white;
+	transform: scale(1.1);
+	transition: 300ms;
+	z-index: 100;
+}
+.prod {
+	padding-top: 100px;
+}
+#prodd {
+	display: flex;
+	align-items: center;
+	width: 1000px;
+}
+#prodd img {
+	height: 120px;
+	width: 120px;
+	transition: 1000ms;
+}
+#prodd img:hover {
+	transform: scale(1.1);
+	transition: 1000ms;
+}
+#prodd h6 {
+	color: rgb(220, 61, 61);
+}
+#prodd button {
+	transition: 300ms;
+}
+#prodd button:hover {
+	transition: 300ms;
+	transform: scale(1.1);
+}
+#pagination {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+.pagination a {
+	color: #4a3b7e !important;
+}
+#tables {
+	margin: 50px auto;
+}
+#option {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.tab-content {
+	padding: 20px;
+}
+.card-body .row {
+	margin: 20px;
+}
+.card-body i {
+	margin-top: 12px;
+}
+#cont {
+	margin: 20px;
+}
+.abt {
+	height: 9 0vh;
+	padding-top: 100px;
+}
+.abt img {
+	border-radius: 50%;
+}
+.eprof {
+	cursor: pointer;
+}
+#ocm .ocmm {
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 20;
+	margin: 10;
+}
+.ocmm img {
+	transition: 1000ms;
+	cursor: pointer;
+}
+.ocmm img:hover {
+	transition: 1000ms;
+	transform: scale(1.1);
+}
+.res{
+	padding-top: 100px;
+}
+#res {
+
+	background-color: #4a3b7e !important;
+}
+.prof {
+	padding-top: 100px;
+}
